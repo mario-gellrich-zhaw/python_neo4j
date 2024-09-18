@@ -1,5 +1,5 @@
 jupyter
-tynyflux
+tinyflux
 neo4j
 pandas
 matplotlib
