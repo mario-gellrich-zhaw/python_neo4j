@@ -1,0 +1,6 @@
+jupyter
+tynyflux
+neo4j
+pandas
+matplotlib
+seaborn
