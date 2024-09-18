@@ -1,10 +1,8 @@
 {
     "name": "Python 3.11 & Neo4j",
-    "image": "mcr.microsoft.com/devcontainers/python:3.11",
-    "features": {
-        "ghcr.io/devcontainers/features/neo4j:1": {}
-    },
-    "postCreateCommand": "pip install -r requirements.txt",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "python",
+    "workspaceFolder": "/workspace",
     "customizations": {
         "vscode": {
             "extensions": [
@@ -17,5 +15,6 @@
                 "grapecity.gc-excelviewer"
             ]
         }
-    }
+    },
+    "postCreateCommand": "pip install -r requirements.txt"
 }
