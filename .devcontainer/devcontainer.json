@@ -1,6 +1,6 @@
 {
     "name": "Python 3.11 & Neo4j",
-    "dockerComposeFile": "docker-compose.yml",
+    "dockerComposeFile": "../docker-compose.yml",
     "service": "python",
     "workspaceFolder": "/workspace",
     "customizations": {
