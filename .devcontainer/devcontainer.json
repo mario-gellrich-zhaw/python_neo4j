@@ -4,7 +4,7 @@
     "service": "python",
     "workspaceFolder": "/workspace",
     "forwardPorts": [
-      7474, 7687
+      7687, 7474
     ],
     "customizations": {
       "vscode": {
@@ -20,9 +20,6 @@
         ]
       }
     },
-    "mounts": [
-      "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
-    ],
     "postCreateCommand": "pip install -r requirements.txt",
     "remoteUser": "vscode"
   }
