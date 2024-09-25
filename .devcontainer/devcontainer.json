@@ -15,10 +15,11 @@
           "ms-azuretools.vscode-docker",
           "ms-python.python",
           "ms-toolsai.jupyter",
+          "grapecity.gc-excelviewer",
+          "mechatroner.rainbow-csv",
           "analytic-signal.preview-pdf",
           "ms-python.vscode-pylance",
-          "ms-python.autopep8",
-          "grapecity.gc-excelviewer"
+          "ms-python.autopep8"
         ]
       }
     },
