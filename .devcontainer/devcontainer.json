@@ -4,7 +4,7 @@
     "service": "python",
     "workspaceFolder": "/workspace",
     "forwardPorts": [
-      7687, 7474
+      7687, 7473, 7474
     ],
     "features": {
       "ghcr.io/devcontainers/features/docker-in-docker:2": {}
